@@ -11,10 +11,10 @@ execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:f
 execute as @s[scores={ija-a004xd=1..126,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 
 # spawn random mob
-execute as @s[scores={ija-a004xd=1..2,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob
+execute as @s[scores={ija-a004xd=1..2,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob
 
 # spawn one random block of all blocks
-execute as @s[scores={ija-a004xd=1..126,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock
+execute as @s[scores={ija-a004xd=1..126,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock
 
 # spawn chest with all random items
 execute as @s[scores={ija-a004xd=127,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"[{\"text\":\"Super Chest\",\"color\":\"blue\"}]",LootTable:"ija-one-block:superchest"}

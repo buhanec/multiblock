@@ -34,7 +34,7 @@ execute as @s[scores={ija-a004xa=331..334,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=335..337,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
 execute as @s[scores={ija-a004xa=338..340,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=341..343,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=341..343,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=341..343,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=344..345,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=346,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:zombie ~ ~2.5 ~ {ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1}]}
 execute as @s[scores={ija-a004xa=346..348,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
@@ -54,7 +54,7 @@ execute as @s[scores={ija-a004xa=384..385,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=386..389,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=390..394,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=395..398,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=395..398,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=395..398,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=399..400,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=401..405,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=406,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:creeper ~ ~2.5 ~ {ExplosionRadius:2,Fuse:45}
@@ -68,22 +68,22 @@ execute as @s[scores={ija-a004xa=426,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=427..430,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=431..433,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=434,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=434,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=434,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=434..437,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=438..442,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=438..442,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=438..442,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=443..447,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=448..451,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=452..456,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
 execute as @s[scores={ija-a004xa=457..459,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=460,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=460,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=460,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=460,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=461..465,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=466,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=467,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=468,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=468,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=468,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=469..472,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=473..476,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=477,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"common:chestphase2"}
@@ -91,7 +91,7 @@ execute as @s[scores={ija-a004xa=478..481,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=482..485,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=486..490,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=491,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=491,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=491,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=491..493,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=494..496,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=497..501,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
@@ -100,9 +100,9 @@ execute as @s[scores={ija-a004xa=503..507,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=508..510,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
 execute as @s[scores={ija-a004xa=511..513,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=514..517,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=514..517,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=514..517,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=518,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=518,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=518,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=518..521,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=522,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=523,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
@@ -115,7 +115,7 @@ execute as @s[scores={ija-a004xa=538..540,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=541,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=542..546,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=547,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=547,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=547,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=547,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=548..551,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=552..554,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
@@ -125,16 +125,16 @@ execute as @s[scores={ija-a004xa=559,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=560..564,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=565,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"common:chestphase2"}
 execute as @s[scores={ija-a004xa=566..570,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=566..570,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=566..570,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=571..572,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=571..572,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=571..572,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=573..574,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=575,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=575,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=575,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=575,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
 execute as @s[scores={ija-a004xa=576,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=577,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=577,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=577,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=578..582,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=583..585,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=586..587,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log replace minecraft:barrier
@@ -144,7 +144,7 @@ execute as @s[scores={ija-a004xa=591..595,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=596..598,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=599..601,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=602,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=602,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=602,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=602..603,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=604..605,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=606,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
@@ -158,7 +158,7 @@ execute as @s[scores={ija-a004xa=621,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=622..625,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=626..627,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=628,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=628,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=628,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=628..631,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=632..636,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=637..639,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
@@ -169,13 +169,13 @@ execute as @s[scores={ija-a004xa=648..652,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=653,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=654..656,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=657,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=657,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=657,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=657,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=658..662,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=663..672,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=663..672,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=663..672,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=673,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=673,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob2
+execute as @s[scores={ija-a004xa=673,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob2
 execute as @s[scores={ija-a004xa=673..682,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
-execute as @s[scores={ija-a004xa=673..682,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
+execute as @s[scores={ija-a004xa=673..682,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock2
 execute as @s[scores={ija-a004xa=683,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"color\":\"dark_red\",\"text\":\"Benevolent Gift\"}",Items:[{Slot:5,id:bone_meal,Count:2},{Slot:11,id:bone_meal,Count:1},{Slot:12,id:bone,Count:4},{Slot:17,id:oak_sapling,Count:1},{Slot:19,id:bone_meal,Count:1},{Slot:22,id:ice,Count:2},{Slot:24,id:bone,Count:2}]}
