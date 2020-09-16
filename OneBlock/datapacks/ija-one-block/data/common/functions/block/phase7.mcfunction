@@ -89,7 +89,7 @@ execute as @s[scores={ija-a004xa=3995,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=3996,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3997..3999,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4000..4001,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4002,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"ija-one-block:superchest"}
+execute as @s[scores={ija-a004xa=4002,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"common:superchest"}
 execute as @s[scores={ija-a004xa=4003..4005,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4006..4013,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4014,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:fns/randomnumber
@@ -175,7 +175,7 @@ execute as @s[scores={ija-a004xa=4207..4209,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4207..4209,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock7
 execute as @s[scores={ija-a004xa=4210,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:fns/randomnumber
 execute as @s[scores={ija-a004xa=4210,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob7
-execute as @s[scores={ija-a004xa=4210,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"ija-one-block:superchest"}
+execute as @s[scores={ija-a004xa=4210,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"common:superchest"}
 execute as @s[scores={ija-a004xa=4211,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4212..4214,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4215..4216,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
@@ -257,7 +257,7 @@ execute as @s[scores={ija-a004xa=4377,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4377..4379,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4380,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4381..4382,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4383,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"ija-one-block:superchest"}
+execute as @s[scores={ija-a004xa=4383,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"common:superchest"}
 execute as @s[scores={ija-a004xa=4384..4385,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4386..4390,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4391..4392,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
@@ -308,4 +308,4 @@ execute as @s[scores={ija-a004xa=4481,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4481,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob7
 execute as @s[scores={ija-a004xa=4481..4490,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:fns/randomnumber
 execute as @s[scores={ija-a004xa=4481..4490,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock7
-execute as @s[scores={ija-a004xa=4491,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"ija-one-block:superchest"}
+execute as @s[scores={ija-a004xa=4491,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"common:superchest"}
