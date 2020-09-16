@@ -84,7 +84,7 @@ execute as @e[tag=ija-a4-mined] at @s run execute as @a[x=0,dx=0,y=61,dy=0,z=0,d
 execute as @e[tag=ija-a4-mined] at @s unless entity @s[tag=ija-a4-waiting] run function common:block/spawner
 execute as @e[tag=ija-a4-block,scores={ija-a004xc=1..}] at @s unless entity @s[tag=ija-a4-mined] unless entity @s[tag=ija-a4-waiting] run function common:block/spawner
 
-execute as @e[tag=ija-a4-block] at @s run function ija-one-block:block/endportal
+execute as @e[tag=ija-a4-block] at @s run function common:block/endportal
 
 # when block respawns, give some visuals and audio
 execute as @e[tag=ija-a4-block,scores={ija-a004xc=1}] at @s run particle minecraft:cloud ~ ~ ~ 0.45 0.35 0.45 0.01 8 force

@@ -22,7 +22,7 @@ execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~-2 ~-2 minec
 execute as @s at @s run fill ~-1 ~-3 ~-1 ~1 ~-3 ~1 minecraft:end_stone_brick_slab[type=top] destroy
 
 # intro effect
-execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run title @a title {"text":"The end is near...","color":"light_purple"}
+execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run title @a title {"text":"","color":"light_purple","extra":[{"selector":"@p"},{"text":"'s end is near...", "color": "light_purple"}]}
 execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run playsound minecraft:entity.ender_dragon.growl hostile @a ~ ~ ~ 1 0.5 1
 execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run effect give @a minecraft:blindness 6 1 true
 

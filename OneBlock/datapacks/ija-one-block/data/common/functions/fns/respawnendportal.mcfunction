@@ -14,7 +14,7 @@ execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run fill ~1 ~-2 ~2 ~-1 ~-2 ~
 execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~-2 ~2 minecraft:end_portal_frame[eye=false,facing=north]
 execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run fill ~1 ~-2 ~-2 ~-1 ~-2 ~-2 minecraft:end_portal_frame[eye=true,facing=south]
 execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~-2 ~-2 minecraft:end_portal_frame[eye=false,facing=south]
-tellraw @a {"text":"Respawned the end portal.","color":"light_purple"}
+execute as @s at @s run tellraw @a {"text":"","color":"light_purple","extra":[{"selector":"@p"},{"text":" respawned the end portal.", "color": "light_purple"}]}
 
 # particle effects for 10 seconds
 scoreboard players set @s ija-a004xi 200
