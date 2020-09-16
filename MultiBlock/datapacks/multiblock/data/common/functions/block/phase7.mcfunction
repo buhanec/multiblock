@@ -18,7 +18,7 @@ execute as @s[scores={ija-a004xa=3752..3758,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=3759,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3760..3763,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3764..3765,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3766,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:zombie_pigman ~ ~2.5 ~ {HandItems:[{id:"minecraft:golden_sword",Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1}]}
+execute as @s[scores={ija-a004xa=3766,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:piglin ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=3766..3770,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3771..3775,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3776..3779,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
