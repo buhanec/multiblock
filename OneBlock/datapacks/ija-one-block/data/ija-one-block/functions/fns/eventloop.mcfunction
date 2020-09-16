@@ -6,7 +6,7 @@
 
 
 # make dead players get a death kit 3 times
-execute as @a[scores={ija-a004xf=1..}] at @s run function ija-one-block:fns/deathkit
+execute as @a[scores={ija-a004xf=1..}] at @s run function common:fns/deathkit
 
 
 # set worldspawn again whenever a new player joins
