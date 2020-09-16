@@ -16,7 +16,7 @@ scoreboard players set @a[scores={ija-a004xLoaded=2..}] ija-a004xLoaded 2
 execute as @a unless entity @s[tag=ija-a004xIsOn] run tag @s add ija-a004xIsOn
 
 # loading message for every newly joined player
-execute as @a[scores={ija-a004xOnline=1}] at @s run tellraw @s {"text":"","extra":[{"text":"Loaded: ","color":"green"},{"text":"OneBlock","color":"gold"},{"text":" by ","color":"white"},{"text":"IJAMinecraft","color":"white","clickEvent":{"action":"open_url","value":"https://www.youtube.com/user/IJAMinecraft"},"hoverEvent":{"action":"show_text","value":"Click to visit my\nYouTube channel!"}}]}
+execute as @a[scores={ija-a004xOnline=1}] at @s run tellraw @s {"text":"","extra":[{"text":"Loaded: ","color":"green"},{"text":"MultiBlock","color":"gold"},{"text":", based on ","color":"white"},{"text":"OneBlock","color":"gold"},{"text":" by ","color":"white"},{"text":"IJAMinecraft","color":"white","clickEvent":{"action":"open_url","value":"https://www.youtube.com/user/IJAMinecraft"},"hoverEvent":{"action":"show_text","value":"Click to visit my\nYouTube channel!"}}]}
 
 execute as @a[scores={ija-a004xOnline=1}] at @s run tellraw @s {"text":" ","italic":"true","extra":[{"text":"[?] Click here to open the help menu.","color":"gray","clickEvent":{"action":"run_command","value":"/trigger ija-a4 set 1"},"hoverEvent":{"action":"show_text","value":"Opens the help menu."}}]}
 
