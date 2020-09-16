@@ -78,7 +78,7 @@ scoreboard players add @e[tag=ija_a004_decider,distance=..2] ija-a004xb 1
 scoreboard players set @e[tag=ija_a004_decider,scores={ija-a004xb=1025..},distance=..2] ija-a004xb 1024
 
 # decider transfers its decimal value to the player
-execute as @e[tag=ija_a004_decider,distance=..2] at @s positioned ~ ~ ~ run scoreboard players operation @e[tag=ija-a4-block] ija-a004xb = @s ija-a004xb
+execute as @e[tag=ija_a004_decider,distance=..2] at @s run scoreboard players operation @e[tag=ija-a4-block,sort=nearest,limit=1] ija-a004xb = @s ija-a004xb
 
 # kill entities of random number generator
 kill @e[tag=ija_a004_binary,distance=..2]
