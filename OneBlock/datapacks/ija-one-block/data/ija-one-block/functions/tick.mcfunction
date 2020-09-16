@@ -4,6 +4,9 @@
 # 		@ youtube.com/user/IJAMinecraft
 #
 
+# common setup
+function common:setup
+
 # set worldspawn again whenever a new player joins
 execute as @a[scores={ija-a004xOnline=1}] at @s run setworldspawn 0 61 0
 
@@ -27,3 +30,6 @@ execute as @e[limit=1] positioned 0.5 60.5 20.5 unless entity @e[tag=ija-a4-bloc
 
 # Ensure entity age never causes expiry
 execute as @e[tag=ija-a4-block] run data merge entity @s {Duration:2000,Age:0}
+
+# common tick
+function common:tick

@@ -4,9 +4,6 @@
 # 		@ youtube.com/user/IJAMinecraft
 #
 
-# common
-# ---------------------------------
-
 # have newly joined player at score 1 for one tick, then hold them at score 2
 scoreboard players add @a ija-a004xOnline 1
 scoreboard players set @a[scores={ija-a004xOnline=2..}] ija-a004xOnline 2
@@ -26,10 +23,4 @@ execute as @a[scores={ija-a004xOnline=1}] at @s run tellraw @s {"text":" ","ital
 # enable trigger objective for joined players
 scoreboard players enable @a[scores={ija-a004xOnline=1}] ija-a4
 # handle triggers by players
-function ija-one-block:trigger
-
-# set up blocks
-function ija-one-block:blocks
-
-# call loop file of this data pack's content
-function common:eventloop
+function common:trigger
