@@ -5,7 +5,7 @@
 #
 
 execute as @s[scores={ija-a004xa=5990,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-execute as @s[scores={ija-a004xa=5990,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n You reached phase 10: The End!","color":"gold"}
+execute as @s[scores={ija-a004xa=5990,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","color":"red","extra":[{"selector":"@p"},{"text":" reached phase 10: The End!","color":"gold"}]}
 execute as @s[scores={ija-a004xa=5990,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":" Ancient powers rise as the dark void collides with your world.","color":"yellow"}
 execute as @s[scores={ija-a004xa=5990,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","italic":"true","extra":[{"text":"[?] Click here to open the help menu.","color":"gray","clickEvent":{"action":"run_command","value":"/trigger ija-a4 set 1"},"hoverEvent":{"action":"show_text","value":"Opens the help menu."}}]}
 execute as @s[scores={ija-a004xa=5990..6039,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
