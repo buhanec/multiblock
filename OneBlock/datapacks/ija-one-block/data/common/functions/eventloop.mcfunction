@@ -6,7 +6,7 @@
 
 
 # make dead players get a death kit 3 times
-execute as @a[scores={ija-a004xf=1..}] at @s run function common:fns/deathkit
+execute as @a[scores={ija-a004xf=1..}] at @s run function common:deathkit
 
 # give counter entity a tag if a block was mined this tick
 execute as @e[tag=ija-a4-block] at @s if block ~ ~ ~ minecraft:fire run tag @s add ija-a4-mined
@@ -40,7 +40,7 @@ execute as @e[tag=ija-a4-mined] at @s run scoreboard players add @p ija-a004xe 1
 
 
 # tutorial texts (armor stands)
-execute as @e[tag=ija-a4-block,scores={ija-a004xa=..31}] at @s run function common:fns/tutorialtexts
+execute as @e[tag=ija-a4-block,scores={ija-a004xa=..31}] at @s run function common:tutorialtexts
 execute as @e[tag=ija-a4-block,scores={ija-a004xa=32..}] at @s run kill @e[tag=ija-a4-tutorial]
 
 

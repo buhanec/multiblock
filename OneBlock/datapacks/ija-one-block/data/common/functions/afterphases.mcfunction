@@ -5,10 +5,10 @@
 #
 
 # get random number between 1 and 128 on ija-a004xd
-execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run function common:fns/randomnumberafter
+execute as @s at @s align xz positioned ~0.5 ~ ~0.5 run function common:randomnumberafter
 
 # get 2nd random number between 1 and 1024 on ija-a004xb
-execute as @s[scores={ija-a004xd=1..126,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:fns/randomnumber
+execute as @s[scores={ija-a004xd=1..126,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:randomnumber
 
 # spawn random mob
 execute as @s[scores={ija-a004xd=1..2,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob

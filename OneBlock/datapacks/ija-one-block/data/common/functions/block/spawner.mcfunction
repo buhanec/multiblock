@@ -15,7 +15,7 @@ execute as @s[scores={ija-a004xa=3711..4491}] at @s align xz positioned ~0.5 ~ ~
 execute as @s[scores={ija-a004xa=4493..5192}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/phase8
 execute as @s[scores={ija-a004xa=5194..5988}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/phase9
 execute as @s[scores={ija-a004xa=5990..7035}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/phase10
-execute as @s[scores={ija-a004xa=7037..}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:fns/afterphases
+execute as @s[scores={ija-a004xa=7037..}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:afterphases
 
 execute as @s[scores={ija-a004xa=7037..}] at @s unless entity @s[tag=ija-a4-afterphases] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @s[scores={ija-a004xa=7037..}] at @s unless entity @s[tag=ija-a4-afterphases] run tellraw @a {"text":"\n ","color":"red","extra":[{"selector":"@p"},{"text":" reached the Afterphases!", "color": "gold"}]}

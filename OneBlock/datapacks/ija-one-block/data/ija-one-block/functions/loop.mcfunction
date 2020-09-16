@@ -32,4 +32,4 @@ function ija-one-block:trigger
 function ija-one-block:blocks
 
 # call loop file of this data pack's content
-function common:fns/eventloop
+function common:eventloop
