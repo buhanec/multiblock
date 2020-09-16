@@ -8,7 +8,7 @@
 # ---------------------------------
 
 # open help menu
-execute as @a[scores={ija-a4=1}] at @s run function ija-one-block:help
+execute as @a[scores={ija-a4=1}] at @s run function common:help/help
 
 # open chests help page
 execute as @a[scores={ija-a4=2}] at @s run function common:help/chests
