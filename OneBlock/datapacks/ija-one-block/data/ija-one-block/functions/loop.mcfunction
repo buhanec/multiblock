@@ -28,5 +28,8 @@ scoreboard players enable @a[scores={ija-a004xOnline=1}] ija-a4
 # handle triggers by players
 function ija-one-block:trigger
 
-# call loop file of this data pack's content 
-function ija-one-block:fns/eventloop
+# set up blocks
+function ija-one-block:blocks
+
+# call loop file of this data pack's content
+function common:fns/eventloop
