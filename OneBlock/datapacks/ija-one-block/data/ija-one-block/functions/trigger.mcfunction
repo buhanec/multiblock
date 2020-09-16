@@ -11,10 +11,10 @@
 execute as @a[scores={ija-a4=1}] at @s run function ija-one-block:help
 
 # open chests help page
-execute as @a[scores={ija-a4=2}] at @s run function ija-one-block:help/chests
+execute as @a[scores={ija-a4=2}] at @s run function common:help/chests
 
 # open phase pages
-execute as @a[scores={ija-a4=11..21}] at @s run function ija-one-block:help/phasetriggers
+execute as @a[scores={ija-a4=11..21}] at @s run function common:help/phasetriggers
 
 # ---------------------------------
 # end of triggers
