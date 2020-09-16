@@ -4,12 +4,16 @@
 # 		@ youtube.com/user/IJAMinecraft
 #
 
-execute as @s[scores={ija-a004xb=1..50}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xb=51..84}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xb=1..25}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
+execute as @s[scores={ija-a004xb=26..35}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:basalt replace minecraft:barrier
+execute as @s[scores={ija-a004xb=36..50}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:blackstone replace minecraft:barrier
+execute as @s[scores={ija-a004xb=51..64}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xb=65..84}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xb=85..108}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xb=109..113}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xb=114..125}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
-execute as @s[scores={ija-a004xb=126..130}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:barrier
+execute as @s[scores={ija-a004xb=126..129}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:barrier
+execute as @s[scores={ija-a004xb=130}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:crying_obsidian replace minecraft:barrier
 execute as @s[scores={ija-a004xb=131..145}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xb=146..160}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xb=161..181}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_ore replace minecraft:barrier
@@ -37,7 +41,7 @@ execute as @s[scores={ija-a004xb=458..460}] at @s align xz positioned ~0.5 ~ ~0.
 execute as @s[scores={ija-a004xb=461..498}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xb=499..533}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xb=534..538}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:jungle_log replace minecraft:barrier
-execute as @s[scores={ija-a004xb=539..545}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gold_ore replace minecraft:barrier
+execute as @s[scores={ija-a004xb=539..545}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_gold_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xb=546..583}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xb=584..588}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:green_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xb=589..624}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
@@ -67,7 +71,8 @@ execute as @s[scores={ija-a004xb=933..941}] at @s align xz positioned ~0.5 ~ ~0.
 execute as @s[scores={ija-a004xb=942..948}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:white_concrete_powder replace minecraft:barrier
 execute as @s[scores={ija-a004xb=949..953}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gray_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xb=954..960}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:birch_log replace minecraft:barrier
-execute as @s[scores={ija-a004xb=961..1016}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
+execute as @s[scores={ija-a004xb=961..975}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_nylium replace minecraft:barrier
+execute as @s[scores={ija-a004xb=976..1016}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:warped_nylium replace minecraft:barrier
 execute as @s[scores={ija-a004xb=1017}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:pumpkin replace minecraft:barrier
 execute as @s[scores={ija-a004xb=1018}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:melon replace minecraft:barrier
 execute as @s[scores={ija-a004xb=1019..1024}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:podzol replace minecraft:barrier

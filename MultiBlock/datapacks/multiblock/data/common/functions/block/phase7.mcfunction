@@ -10,10 +10,10 @@ execute as @s[scores={ija-a004xa=3711,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=3711,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","italic":"true","extra":[{"text":"[?] Click here to open the help menu.","color":"gray","clickEvent":{"action":"run_command","value":"/trigger ija-a4 set 1"},"hoverEvent":{"action":"show_text","value":"Opens the help menu."}}]}
 execute as @s[scores={ija-a004xa=3711..3722,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3723..3724,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3725..3731,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
+execute as @s[scores={ija-a004xa=3725..3731,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:basalt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3732..3734,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3735..3738,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3739..3751,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
+execute as @s[scores={ija-a004xa=3739..3751,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:blackstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3752..3758,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3759,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3760..3763,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
@@ -29,7 +29,7 @@ execute as @s[scores={ija-a004xa=3791..3793,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=3794,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:magma_cube ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=3794..3797,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3798..3803,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3804..3810,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=3804..3810,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3811..3813,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diamond_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3814..3821,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3822,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:blaze ~ ~2.5 ~
@@ -41,7 +41,7 @@ execute as @s[scores={ija-a004xa=3832..3835,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=3836..3837,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:emerald_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3838..3840,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3841..3844,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3845,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_ore replace minecraft:barrier
+execute as @s[scores={ija-a004xa=3845,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_gold_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3846..3848,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3849,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:ghast ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=3849..3854,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
@@ -109,7 +109,7 @@ execute as @s[scores={ija-a004xa=4040,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4041..4042,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:randomnumber
 execute as @s[scores={ija-a004xa=4041..4042,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock7
 execute as @s[scores={ija-a004xa=4043..4048,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4049..4053,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4049..4053,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4054,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4055..4058,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4059,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
@@ -120,7 +120,7 @@ execute as @s[scores={ija-a004xa=4069,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4069,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob7
 execute as @s[scores={ija-a004xa=4069,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4070..4073,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4074..4076,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4074..4076,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_gold_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4077..4082,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4083..4088,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4089..4091,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
@@ -130,7 +130,7 @@ execute as @s[scores={ija-a004xa=4096,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4096,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob7
 execute as @s[scores={ija-a004xa=4096..4098,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4099..4102,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4103..4107,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4103..4107,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4108,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:emerald_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4109..4111,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:randomnumber
 execute as @s[scores={ija-a004xa=4109..4111,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnblock7
@@ -143,7 +143,7 @@ execute as @s[scores={ija-a004xa=4126,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4126,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob7
 execute as @s[scores={ija-a004xa=4126..4128,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4129..4133,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4134..4137,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4134..4137,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4138..4142,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4143..4147,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4148..4149,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
@@ -178,7 +178,7 @@ execute as @s[scores={ija-a004xa=4210,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4210,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"{\"text\":\"Super Chest\",\"color\":\"blue\"}",LootTable:"common:superchest"}
 execute as @s[scores={ija-a004xa=4211,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4212..4214,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4215..4216,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4215..4216,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4217..4219,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4220,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4221..4224,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
@@ -228,7 +228,7 @@ execute as @s[scores={ija-a004xa=4316,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4317..4319,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4320,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:randomnumber
 execute as @s[scores={ija-a004xa=4320,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function common:block/spawnmob7
-execute as @s[scores={ija-a004xa=4320..4323,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4320..4323,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4324..4325,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4326..4328,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4329..4330,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
@@ -271,7 +271,7 @@ execute as @s[scores={ija-a004xa=4404,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4404,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4405,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4406,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4407,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
+execute as @s[scores={ija-a004xa=4407,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_soil replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4408..4412,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4413..4415,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4416,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
