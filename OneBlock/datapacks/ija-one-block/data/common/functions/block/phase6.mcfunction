@@ -5,7 +5,7 @@
 #
 
 execute as @s[scores={ija-a004xa=2912,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-execute as @s[scores={ija-a004xa=2912,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n You reached phase 6: Red Desert!","color":"gold"}
+execute as @s[scores={ija-a004xa=2912,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","color":"red","extra":[{"selector":"@p"},{"text":" reached phase 6: Red Desert!","color":"gold"}]}
 execute as @s[scores={ija-a004xa=2912,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":" The desert is a hostile place of heat, dust and death.","color":"yellow"}
 execute as @s[scores={ija-a004xa=2912,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","italic":"true","extra":[{"text":"[?] Click here to open the help menu.","color":"gray","clickEvent":{"action":"run_command","value":"/trigger ija-a4 set 1"},"hoverEvent":{"action":"show_text","value":"Opens the help menu."}}]}
 execute as @s[scores={ija-a004xa=2912..2919,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sandstone replace minecraft:barrier

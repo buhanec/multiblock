@@ -5,7 +5,7 @@
 #
 
 execute as @s[scores={ija-a004xa=2154,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-execute as @s[scores={ija-a004xa=2154,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n You reached phase 5: Jungle Dungeon!","color":"gold"}
+execute as @s[scores={ija-a004xa=2154,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","color":"red","extra":[{"selector":"@p"},{"text":" reached phase 5: Jungle Dungeon!","color":"gold"}]}
 execute as @s[scores={ija-a004xa=2154,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":" Hidden by ancient trees and covered in vines lies a dungeon.","color":"yellow"}
 execute as @s[scores={ija-a004xa=2154,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run tellraw @a {"text":"\n ","italic":"true","extra":[{"text":"[?] Click here to open the help menu.","color":"gray","clickEvent":{"action":"run_command","value":"/trigger ija-a4 set 1"},"hoverEvent":{"action":"show_text","value":"Opens the help menu."}}]}
 execute as @s[scores={ija-a004xa=2154..2161,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
