@@ -51,7 +51,7 @@ execute as @s[scores={ija-a004xa=1515..1520,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=1521,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:drowned ~ ~2.5 ~ {ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1}]}
 execute as @s[scores={ija-a004xa=1521..1525,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cyan_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1526,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=1527,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=1527,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=1528..1533,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1534..1537,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1538..1542,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
@@ -85,7 +85,7 @@ execute as @s[scores={ija-a004xa=1603..1604,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=1605..1609,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sea_lantern replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1610..1613,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1614..1618,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
-execute as @s[scores={ija-a004xa=1619,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=1619,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=1620..1624,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1625..1628,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:blue_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1629..1630,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:blue_terracotta replace minecraft:barrier
@@ -122,7 +122,7 @@ execute as @s[scores={ija-a004xa=1711..1714,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=1715,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:dolphin ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=1715..1719,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1720..1724,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=1725,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=1725,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=1726..1732,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=1726..1732,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock4
 execute as @s[scores={ija-a004xa=1733..1736,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
@@ -159,7 +159,7 @@ execute as @s[scores={ija-a004xa=1797..1800,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=1801,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1802..1805,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1806..1807,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dried_kelp_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=1808,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=1808,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=1809,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:lapis_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1810,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sea_lantern replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1811,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:fire_coral_block replace minecraft:barrier
@@ -197,7 +197,7 @@ execute as @s[scores={ija-a004xa=1881..1884,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=1885,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1886,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1887,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_oak_log replace minecraft:barrier
-execute as @s[scores={ija-a004xa=1888,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=1888,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=1889..1891,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1892..1895,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1896,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sand replace minecraft:barrier
@@ -235,7 +235,7 @@ execute as @s[scores={ija-a004xa=1961..1964,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=1965,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1966,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1967..1969,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=1970,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=1970,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=1971..1975,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1976..1979,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
 execute as @s[scores={ija-a004xa=1980..1983,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
@@ -273,7 +273,7 @@ execute as @s[scores={ija-a004xa=2049,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=2050..2051,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2052..2057,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=2052..2057,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock4
-execute as @s[scores={ija-a004xa=2058,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"ija-one-block:chestphase4"}
+execute as @s[scores={ija-a004xa=2058,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Ocean Chest\"",LootTable:"common:chestphase4"}
 execute as @s[scores={ija-a004xa=2059..2061,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2062..2065,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2066..2067,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:prismarine_bricks replace minecraft:barrier

@@ -48,7 +48,7 @@ execute as @s[scores={ija-a004xa=367..370,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=371..374,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
 execute as @s[scores={ija-a004xa=375,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:spider ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=375..377,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
-execute as @s[scores={ija-a004xa=378,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"ija-one-block:chestphase2"}
+execute as @s[scores={ija-a004xa=378,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"common:chestphase2"}
 execute as @s[scores={ija-a004xa=379..383,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=384..385,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=386..389,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
@@ -86,7 +86,7 @@ execute as @s[scores={ija-a004xa=468,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=468,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
 execute as @s[scores={ija-a004xa=469..472,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=473..476,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=477,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"ija-one-block:chestphase2"}
+execute as @s[scores={ija-a004xa=477,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"common:chestphase2"}
 execute as @s[scores={ija-a004xa=478..481,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gravel replace minecraft:barrier
 execute as @s[scores={ija-a004xa=482..485,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=486..490,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
@@ -123,7 +123,7 @@ execute as @s[scores={ija-a004xa=555..557,ija-a004xc=1}] at @s align xz position
 execute as @s[scores={ija-a004xa=558,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dirt replace minecraft:barrier
 execute as @s[scores={ija-a004xa=559,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:spruce_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=560..564,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier
-execute as @s[scores={ija-a004xa=565,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"ija-one-block:chestphase2"}
+execute as @s[scores={ija-a004xa=565,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"common:chestphase2"}
 execute as @s[scores={ija-a004xa=566..570,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=566..570,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock2
 execute as @s[scores={ija-a004xa=571..572,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
@@ -162,7 +162,7 @@ execute as @s[scores={ija-a004xa=628,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=628..631,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=632..636,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=637..639,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=640,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"ija-one-block:chestphase2"}
+execute as @s[scores={ija-a004xa=640,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Underground Chest\"",LootTable:"common:chestphase2"}
 execute as @s[scores={ija-a004xa=641..645,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=646..647,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=648..652,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:andesite replace minecraft:barrier

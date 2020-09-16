@@ -51,7 +51,7 @@ execute as @s[scores={ija-a004xa=6242..6248,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=6249,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=6249,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob10
 execute as @s[scores={ija-a004xa=6249..6250,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:pink_terracotta replace minecraft:barrier
-execute as @s[scores={ija-a004xa=6251,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6251,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6252..6258,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6259,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:obsidian replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6260..6265,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
@@ -89,7 +89,7 @@ execute as @s[scores={ija-a004xa=6370,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=6370,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob10
 execute as @s[scores={ija-a004xa=6370..6371,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diamond_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6372..6376,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=6377,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6377,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6378,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6379..6383,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:pink_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6384..6390,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
@@ -134,7 +134,7 @@ execute as @s[scores={ija-a004xa=6511,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=6511..6513,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6514..6515,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6516..6520,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=6521,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6521,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6522..6524,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6525,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:pink_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6526..6527,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
@@ -176,7 +176,7 @@ execute as @s[scores={ija-a004xa=6620,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=6620,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6621..6624,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=6621..6624,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock10
-execute as @s[scores={ija-a004xa=6625,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6625,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6626..6634,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=6626..6634,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock10
 execute as @s[scores={ija-a004xa=6635..6638,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
@@ -216,7 +216,7 @@ execute as @s[scores={ija-a004xa=6730,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=6730..6733,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6734,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6735..6737,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace minecraft:barrier
-execute as @s[scores={ija-a004xa=6738,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6738,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6739,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6740..6744,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6745..6746,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
@@ -253,7 +253,7 @@ execute as @s[scores={ija-a004xa=6819..6822,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=6823,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6824,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:end_stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6825..6830,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=6831,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6831,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6832..6836,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_pillar replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6837,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=6837,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob10
@@ -296,7 +296,7 @@ execute as @s[scores={ija-a004xa=6925..6927,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=6928,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6929..6931,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_pillar replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6932..6933,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=6934,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"ija-one-block:chestphase10"}
+execute as @s[scores={ija-a004xa=6934,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"End Chest\"",LootTable:"common:chestphase10"}
 execute as @s[scores={ija-a004xa=6935..6938,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6939,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:purpur_pillar replace minecraft:barrier
 execute as @s[scores={ija-a004xa=6940..6944,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber

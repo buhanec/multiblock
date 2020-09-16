@@ -46,7 +46,7 @@ execute as @s[scores={ija-a004xa=5308,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=5309..5312,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=5309..5312,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock9
 execute as @s[scores={ija-a004xa=5313..5316,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_oak_log replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5317,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5317,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5318..5324,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5325..5329,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5330,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:skeleton_horse ~ ~2.5 ~
@@ -80,7 +80,7 @@ execute as @s[scores={ija-a004xa=5410..5415,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=5416,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:zombie_horse ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=5416..5419,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:chiseled_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5420..5424,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5425,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5425,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5426..5429,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cracked_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5430..5433,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5434..5437,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone_bricks replace minecraft:barrier
@@ -121,7 +121,7 @@ execute as @s[scores={ija-a004xa=5513..5514,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=5515..5517,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5518..5521,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5522..5523,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:dark_oak_log replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5524,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5524,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5525..5527,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5528..5530,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=5528..5530,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock9
@@ -160,7 +160,7 @@ execute as @s[scores={ija-a004xa=5599..5601,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=5602,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:chiseled_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5603,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:black_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5604,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5605,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5605,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5606..5609,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=5606..5609,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock9
 execute as @s[scores={ija-a004xa=5610,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
@@ -200,7 +200,7 @@ execute as @s[scores={ija-a004xa=5689..5692,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=5693..5695,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5696..5698,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5699..5700,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:chiseled_stone_bricks replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5701,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5701,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5702..5706,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5707..5711,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5712..5715,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
@@ -242,7 +242,7 @@ execute as @s[scores={ija-a004xa=5792,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=5793..5795,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5796,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=5796,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob9
-execute as @s[scores={ija-a004xa=5796,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5796,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5797..5798,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5799..5802,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mycelium replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5803..5807,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block replace minecraft:barrier
@@ -283,7 +283,7 @@ execute as @s[scores={ija-a004xa=5882..5884,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=5885..5888,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cracked_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5889..5891,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=5889..5891,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock9
-execute as @s[scores={ija-a004xa=5892,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"ija-one-block:chestphase9"}
+execute as @s[scores={ija-a004xa=5892,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Desolation Chest\"",LootTable:"common:chestphase9"}
 execute as @s[scores={ija-a004xa=5893..5894,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cracked_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5895..5896,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:chiseled_stone_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5897..5900,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cracked_stone_bricks replace minecraft:barrier

@@ -6,7 +6,7 @@
 
 execute as @s[scores={ija-a004xa=1..3,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"ija-one-block:chestphase1"}
+execute as @s[scores={ija-a004xa=5,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"common:chestphase1"}
 execute as @s[scores={ija-a004xa=6..9,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=10,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=11..13,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
@@ -18,7 +18,7 @@ execute as @s[scores={ija-a004xa=23..24,ija-a004xc=1}] at @s align xz positioned
 execute as @s[scores={ija-a004xa=25..27,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=25..27,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock1
 execute as @s[scores={ija-a004xa=28,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
-execute as @s[scores={ija-a004xa=29,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"ija-one-block:chestphase1"}
+execute as @s[scores={ija-a004xa=29,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"common:chestphase1"}
 execute as @s[scores={ija-a004xa=30..32,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
 execute as @s[scores={ija-a004xa=33..34,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=35..37,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:pumpkin replace minecraft:barrier
@@ -31,7 +31,7 @@ execute as @s[scores={ija-a004xa=50..52,ija-a004xc=1}] at @s align xz positioned
 execute as @s[scores={ija-a004xa=53..57,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=53..57,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock1
 execute as @s[scores={ija-a004xa=58..62,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:podzol replace minecraft:barrier
-execute as @s[scores={ija-a004xa=63,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"ija-one-block:chestphase1"}
+execute as @s[scores={ija-a004xa=63,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"common:chestphase1"}
 execute as @s[scores={ija-a004xa=64,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:melon replace minecraft:barrier
 execute as @s[scores={ija-a004xa=65..68,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=69..70,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
@@ -52,7 +52,7 @@ execute as @s[scores={ija-a004xa=105,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=105..108,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=105..108,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock1
 execute as @s[scores={ija-a004xa=109..113,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=114,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"ija-one-block:chestphase1"}
+execute as @s[scores={ija-a004xa=114,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"common:chestphase1"}
 execute as @s[scores={ija-a004xa=115..116,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
 execute as @s[scores={ija-a004xa=117..121,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=122..124,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
@@ -69,7 +69,7 @@ execute as @s[scores={ija-a004xa=143,ija-a004xc=1}] at @s align xz positioned ~0
 execute as @s[scores={ija-a004xa=144..145,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=146..148,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
 execute as @s[scores={ija-a004xa=149..151,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=152,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"ija-one-block:chestphase1"}
+execute as @s[scores={ija-a004xa=152,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Plains Chest\"",LootTable:"common:chestphase1"}
 execute as @s[scores={ija-a004xa=153..154,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:clay replace minecraft:barrier
 execute as @s[scores={ija-a004xa=155..157,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:oak_log replace minecraft:barrier
 execute as @s[scores={ija-a004xa=158,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:grass_block replace minecraft:barrier

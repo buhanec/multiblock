@@ -46,7 +46,7 @@ execute as @s[scores={ija-a004xa=3846..3848,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=3849,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:ghast ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=3849..3854,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3855..3858,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3859,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=3859,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=3860..3862,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3863..3865,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3866..3869,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
@@ -85,7 +85,7 @@ execute as @s[scores={ija-a004xa=3979..3985,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=3986..3988,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3989..3991,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_wart_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3992..3994,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=3995,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=3995,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=3996,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=3997..3999,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4000..4001,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
@@ -124,7 +124,7 @@ execute as @s[scores={ija-a004xa=4074..4076,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4077..4082,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4083..4088,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4089..4091,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4092,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=4092,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=4093..4095,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4096,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=4096,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob7
@@ -164,7 +164,7 @@ execute as @s[scores={ija-a004xa=4182,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4182..4183,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4184..4186,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4187..4191,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4192,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=4192,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=4193..4194,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4195..4198,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4199..4202,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
@@ -204,7 +204,7 @@ execute as @s[scores={ija-a004xa=4264,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4264..4267,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4268..4269,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4270..4271,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4272,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=4272,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=4273..4276,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=4273..4276,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock7
 execute as @s[scores={ija-a004xa=4277..4280,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
@@ -244,7 +244,7 @@ execute as @s[scores={ija-a004xa=4348..4350,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4351..4352,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4353..4356,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_bricks replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4357..4360,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4361,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=4361,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=4362..4365,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:netherrack replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4366,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:soul_sand replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4367..4369,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:nether_quartz_ore replace minecraft:barrier
@@ -283,7 +283,7 @@ execute as @s[scores={ija-a004xa=4427..4430,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4431,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=4431,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob7
 execute as @s[scores={ija-a004xa=4431..4434,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4435,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"ija-one-block:chestphase7"}
+execute as @s[scores={ija-a004xa=4435,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Nether Chest\"",LootTable:"common:chestphase7"}
 execute as @s[scores={ija-a004xa=4436..4437,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4438,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:glowstone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4439,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magma_block replace minecraft:barrier

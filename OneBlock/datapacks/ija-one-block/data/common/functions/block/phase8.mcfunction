@@ -42,7 +42,7 @@ execute as @s[scores={ija-a004xa=4611..4615,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4616,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:bee_nest replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4617..4621,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_pillar replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4622..4623,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gold_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4624,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"ija-one-block:chestphase8"}
+execute as @s[scores={ija-a004xa=4624,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"common:chestphase8"}
 execute as @s[scores={ija-a004xa=4625..4627,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:beehive replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4628..4637,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=4628..4637,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock8
@@ -82,7 +82,7 @@ execute as @s[scores={ija-a004xa=4721,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4721..4723,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magenta_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4724..4726,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_quartz replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4727,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diamond_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4728,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"ija-one-block:chestphase8"}
+execute as @s[scores={ija-a004xa=4728,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"common:chestphase8"}
 execute as @s[scores={ija-a004xa=4729..4732,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:gold_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4733..4734,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4735..4738,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_block replace minecraft:barrier
@@ -120,7 +120,7 @@ execute as @s[scores={ija-a004xa=4813..4814,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4815..4816,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:light_blue_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4817,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:beehive replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4818..4820,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:light_blue_terracotta replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4821,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"ija-one-block:chestphase8"}
+execute as @s[scores={ija-a004xa=4821,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"common:chestphase8"}
 execute as @s[scores={ija-a004xa=4822..4823,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_quartz replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4824..4826,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:smooth_quartz replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4827..4830,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_pillar replace minecraft:barrier
@@ -157,7 +157,7 @@ execute as @s[scores={ija-a004xa=4888,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=4888,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:brown_mushroom_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4889..4894,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=4889..4894,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock8
-execute as @s[scores={ija-a004xa=4895,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"ija-one-block:chestphase8"}
+execute as @s[scores={ija-a004xa=4895,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"common:chestphase8"}
 execute as @s[scores={ija-a004xa=4896,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magenta_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4897,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:red_mushroom_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4898..4899,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:lapis_ore replace minecraft:barrier
@@ -198,7 +198,7 @@ execute as @s[scores={ija-a004xa=4979..4985,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=4986,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=4986,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob8
 execute as @s[scores={ija-a004xa=4986..4990,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_block replace minecraft:barrier
-execute as @s[scores={ija-a004xa=4991,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"ija-one-block:chestphase8"}
+execute as @s[scores={ija-a004xa=4991,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"common:chestphase8"}
 execute as @s[scores={ija-a004xa=4992..4994,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4995..4998,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:brown_mushroom_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=4999..5003,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_block replace minecraft:barrier
@@ -237,7 +237,7 @@ execute as @s[scores={ija-a004xa=5070..5072,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=5073..5077,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:brown_mushroom_block replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5078,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:emerald_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=5079,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:magenta_terracotta replace minecraft:barrier
-execute as @s[scores={ija-a004xa=5080,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"ija-one-block:chestphase8"}
+execute as @s[scores={ija-a004xa=5080,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Idyll Chest\"",LootTable:"common:chestphase8"}
 execute as @s[scores={ija-a004xa=5081..5084,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=5081..5084,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock8
 execute as @s[scores={ija-a004xa=5085..5088,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_block replace minecraft:barrier

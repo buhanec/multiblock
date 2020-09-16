@@ -50,7 +50,7 @@ execute as @s[scores={ija-a004xa=2304..2307,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=2308,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run summon minecraft:panda ~ ~2.5 ~
 execute as @s[scores={ija-a004xa=2308..2310,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:green_terracotta replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2311..2312,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:lapis_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2313,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2313,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2314..2316,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2317..2318,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:iron_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2319..2321,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:jungle_log replace minecraft:barrier
@@ -86,7 +86,7 @@ execute as @s[scores={ija-a004xa=2404..2408,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=2404..2408,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock5
 execute as @s[scores={ija-a004xa=2409..2412,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2413..2416,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:lapis_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2417,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2417,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2418..2421,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2422,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=2422,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnmob5
@@ -127,7 +127,7 @@ execute as @s[scores={ija-a004xa=2504,ija-a004xc=1}] at @s align xz positioned ~
 execute as @s[scores={ija-a004xa=2504..2506,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2507..2509,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2510,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:redstone_ore replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2511,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2511,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2512..2516,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2517,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:coal_ore replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2518..2521,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:lime_terracotta replace minecraft:barrier
@@ -163,7 +163,7 @@ execute as @s[scores={ija-a004xa=2591..2594,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=2595..2596,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2597..2599,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2600..2601,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:jungle_log replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2602,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2602,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2603..2605,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2606..2610,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2611,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
@@ -203,7 +203,7 @@ execute as @s[scores={ija-a004xa=2675..2677,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=2678,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:diorite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2679,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2680..2682,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2683,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2683,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2684,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2685..2687,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2688..2691,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
@@ -245,7 +245,7 @@ execute as @s[scores={ija-a004xa=2752..2756,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=2752..2756,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock5
 execute as @s[scores={ija-a004xa=2757..2759,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2760..2764,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2765,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2765,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2766..2769,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2770..2773,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:mossy_cobblestone replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2774..2775,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
@@ -288,7 +288,7 @@ execute as @s[scores={ija-a004xa=2835..2839,ija-a004xc=1}] at @s align xz positi
 execute as @s[scores={ija-a004xa=2840..2842,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2843..2845,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2846,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:stone replace minecraft:barrier
-execute as @s[scores={ija-a004xa=2847,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"ija-one-block:chestphase5"}
+execute as @s[scores={ija-a004xa=2847,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run setblock ~ ~ ~ minecraft:chest[facing=east]{CustomName:"\"Jungle Chest\"",LootTable:"common:chestphase5"}
 execute as @s[scores={ija-a004xa=2848..2850,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run fill ~ ~ ~ ~ ~ ~ minecraft:granite replace minecraft:barrier
 execute as @s[scores={ija-a004xa=2851..2855,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:fns/randomnumber
 execute as @s[scores={ija-a004xa=2851..2855,ija-a004xc=1}] at @s align xz positioned ~0.5 ~ ~0.5 run function ija-one-block:block/spawnblock5
