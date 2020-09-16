@@ -33,8 +33,8 @@ execute as @e[tag=ija-a4-block] at @s if block ~ ~ ~ minecraft:air run tag @s ad
 execute as @e[tag=ija-a4-block] at @s if block ~ ~ ~ minecraft:water run tag @s add ija-a4-mined
 
 # wait phase before going to next phase
-execute as @e[tag=ija-a4-mined] at @s run function ija-one-block:block/waitinginit
-execute as @e[tag=ija-a4-waiting] at @s run function ija-one-block:block/waiting
+execute as @e[tag=ija-a4-mined] at @s run function common:block/waitinginit
+execute as @e[tag=ija-a4-waiting] at @s run function common:block/waiting
 
 # replace air/fire/water with barrier
 execute as @e[tag=ija-a4-mined] at @s run fill ~ ~ ~ ~ ~ ~ minecraft:barrier replace minecraft:air

@@ -35,7 +35,7 @@ execute as @s[scores={ija-a004xa=7035}] at @s run setblock ~ ~ ~ minecraft:bedro
 tag @s[scores={ija-a004xa=7035}] add ija-a4-waiting
 scoreboard players set @s[scores={ija-a004xa=7035}] ija-a004xh 2000
 
-execute as @s[tag=ija-a4-waiting] at @s run kill @e[tag=ija-a4-waitmsg]
-execute as @s[tag=ija-a4-waiting] at @s run kill @e[tag=ija-a4-waitcounter]
+execute as @s[tag=ija-a4-waiting] at @s run kill @e[tag=ija-a4-waitmsg,distance=..2]
+execute as @s[tag=ija-a4-waiting] at @s run kill @e[tag=ija-a4-waitcounter,distance=..2]
 execute as @s[tag=ija-a4-waiting] at @s run summon minecraft:area_effect_cloud ~ ~1 ~ {PersistenceRequired:1b,NoGravity:1b,Duration:10000,CustomName:"\"Upgrading in\"",CustomNameVisible:1,Tags:["ija-a4-waitmsg"]}
 execute as @s[tag=ija-a4-waiting] at @s run summon minecraft:area_effect_cloud ~ ~0.6 ~ {CustomNameVisible:1,PersistenceRequired:1b,NoGravity:1b,Duration:10000,Tags:["ija-a4-waitcounter"]}
