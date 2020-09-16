@@ -81,8 +81,8 @@ execute as @e[tag=ija-a4-mined] at @s run execute as @a[x=0,dx=0,y=61,dy=0,z=0,d
 
 
 # run block spawning process if countdown is running or mined tag is set
-execute as @e[tag=ija-a4-mined] at @s unless entity @s[tag=ija-a4-waiting] run function ija-one-block:block/spawner
-execute as @e[tag=ija-a4-block,scores={ija-a004xc=1..}] at @s unless entity @s[tag=ija-a4-mined] unless entity @s[tag=ija-a4-waiting] run function ija-one-block:block/spawner
+execute as @e[tag=ija-a4-mined] at @s unless entity @s[tag=ija-a4-waiting] run function common:block/spawner
+execute as @e[tag=ija-a4-block,scores={ija-a004xc=1..}] at @s unless entity @s[tag=ija-a4-mined] unless entity @s[tag=ija-a4-waiting] run function common:block/spawner
 
 execute as @e[tag=ija-a4-block] at @s run function ija-one-block:block/endportal
 
