@@ -13,6 +13,7 @@
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
 gamerule logAdminCommands false
+gamerule doFireTick false
 
 # special blocks mined counter
 scoreboard objectives add ija-a004xa dummy {"text":"progress"}
